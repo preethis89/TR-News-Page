@@ -1,0 +1,33 @@
+body {
+background-color: #b99898;
+}
+/* use full width for untill 1000px*/
+/* Width of main cotent should be restricted below 1000px */
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+@media only screen and (max-width:1000px){
+    body{
+        background-color: rgb(127, 136, 255);
+    }
+    main{
+        margin-left: 5%;
+        margin-right: 5%; 
+    }
+}
+@media only screen and (max-width:800px){
+    body{
+        background-color: rgb(127, 255, 191);
+    }
+}
+@media only screen and (max-width:600px){
+    body{
+        background-color: rgb(142, 255, 127);
+    }
+}
+@media only screen and (max-width:400px){
+    body{
+        background-color: rgb(255, 242, 127);
+    }
+}
